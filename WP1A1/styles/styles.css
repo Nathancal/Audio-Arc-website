@@ -1,0 +1,1146 @@
+﻿body 
+{
+    margin:auto;
+    background-image: url('../images/WP1A1BGrepeat.png');
+    background-repeat: repeat;
+    height: 1800px;
+}
+
+div#top
+{
+    height: 60px;
+
+
+}
+
+div#headerbottom
+{
+
+    width: 960px;
+}
+
+
+
+
+
+
+/*all content on master goes inside the wrapper*/
+div#wrapper {
+    box-shadow: inset 0 0 10px #000000;
+    align-content: center;
+    margin-right: auto;
+    width: 960px;
+    margin-left:480px;
+    display: inline-block;
+}
+
+nav#cssmenu {
+    width: 960px;
+    margin-left: 480px;
+}
+
+#maincontentplaceholder
+{
+
+    display: inline-block;
+
+}
+
+
+div#ftrwrapper {
+    align-content: center;
+    margin-right: auto;
+    margin-left: 480px;
+    width: 960px;
+}
+
+div#maincontent {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    align-content: center;
+    margin-left: 480px;
+    width: 960px;
+}
+
+div#left {
+    background-color: #666666;
+    float: left;
+    width: 320px;
+    height: 320px;
+}
+
+
+div#logo {
+    background-color: #666666;
+    text-align: center;
+    float: left;
+    width: 320px;
+    height: 320px;
+}
+
+div#right {
+    background-color: #666666;
+    float: left;
+    width: 320px;
+    height: 320px;
+}
+
+
+div#SoundcloudLogo {
+    background-color: #666666;
+    padding-top: 5px;
+    float: left;
+    width: 70px;
+    height: 70px;
+}
+
+div#space2 {
+    background-color: #666666;
+    float: left;
+    width: 320px;
+    height: 70px;
+}
+
+div#FacebookLogo {
+    background-color: #666666;
+    padding-top: 5px;
+    float: left;
+    width: 70px;
+    height: 70px;
+}
+
+#navmenu
+{
+    width: 960px;
+    margin-left: 480px;
+}
+
+
+/*CSS MENU IMPORTED*/
+@import url(https://fonts.googleapis.com/css?family=Oxygen+Mono);
+/* Starter CSS for Menu */
+#cssmenu {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    width: auto;
+}
+
+    #cssmenu ul,
+    #cssmenu li {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    #cssmenu ul {
+        position: relative;
+        z-index: 597;
+    }
+
+        #cssmenu ul li {
+            float: left;
+            min-height: 1px;
+            vertical-align: middle;
+        }
+
+            #cssmenu ul li.hover,
+            #cssmenu ul li:hover {
+                position: relative;
+                z-index: 599;
+                cursor: default;
+            }
+
+        #cssmenu ul ul {
+            visibility: hidden;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            z-index: 598;
+            width: 100%;
+        }
+
+            #cssmenu ul ul li {
+                float: none;
+            }
+
+            #cssmenu ul ul ul {
+                top: 0;
+                left: 190px;
+                width: 190px;
+            }
+
+        #cssmenu ul li:hover > ul {
+            visibility: visible;
+        }
+
+        #cssmenu ul ul {
+            bottom: 0;
+            left: 0;
+        }
+
+        #cssmenu ul ul {
+            margin-top: 0;
+        }
+
+            #cssmenu ul ul li {
+                font-weight: normal;
+            }
+
+    #cssmenu a {
+        display: block;
+        line-height: 1em;
+        text-decoration: none;
+    }
+/* Custom CSS Styles */
+#cssmenu {
+    background: #333;
+    border-bottom: 4px solid #0b5394;
+    font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+    #cssmenu > ul {
+        *display: inline-block;
+    }
+
+    #cssmenu:after,
+    #cssmenu ul:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+
+    #cssmenu ul {
+        text-transform: uppercase;
+    }
+
+        #cssmenu ul ul {
+            border-top: 4px solid #0b5394;
+            text-transform: none;
+            min-width: 190px;
+        }
+
+            #cssmenu ul ul a {
+                background: #0b5394;
+                color: #ffffff;
+                border: 1px solid #073865;
+                border-top: 0 none;
+                line-height: 150%;
+                padding: 16px 20px;
+                font-size: 12px;
+            }
+
+            #cssmenu ul ul ul {
+                border-top: 0 none;
+            }
+
+            #cssmenu ul ul li {
+                position: relative;
+            }
+
+                #cssmenu ul ul li:first-child > a {
+                    border-top: 1px solid #073865;
+                }
+
+                #cssmenu ul ul li:hover > a {
+                    background: #0f6ec3;
+                    color: #ffffff;
+                }
+
+                #cssmenu ul ul li:last-child > a {
+                    -moz-border-radius: 0 0 3px 3px;
+                    -webkit-border-radius: 0 0 3px 3px;
+                    border-radius: 0 0 3px 3px;
+                    -moz-background-clip: padding;
+                    -webkit-background-clip: padding-box;
+                    background-clip: padding-box;
+                    -moz-box-shadow: 0 1px 0 #0b5394;
+                    -webkit-box-shadow: 0 1px 0 #0b5394;
+                    box-shadow: 0 1px 0 #0b5394;
+                }
+
+                #cssmenu ul ul li:last-child:hover > a {
+                    -moz-border-radius: 0 0 0 3px;
+                    -webkit-border-radius: 0 0 0 3px;
+                    border-radius: 0 0 0 3px;
+                    -moz-background-clip: padding;
+                    -webkit-background-clip: padding-box;
+                    background-clip: padding-box;
+                }
+
+                #cssmenu ul ul li.has-sub > a:after {
+                    content: '+';
+                    position: absolute;
+                    top: 50%;
+                    right: 15px;
+                    margin-top: -8px;
+                }
+
+        #cssmenu ul li:hover > a,
+        #cssmenu ul li.active > a {
+            background: #0b5394;
+            color: #ffffff;
+        }
+
+        #cssmenu ul li.has-sub > a:after {
+            content: '+';
+            margin-left: 5px;
+        }
+
+        #cssmenu ul li.last ul {
+            left: auto;
+            right: 0;
+        }
+
+            #cssmenu ul li.last ul ul {
+                left: auto;
+                right: 99.5%;
+            }
+
+    #cssmenu a {
+        background: #333;
+        color: #CBCBCB;
+        padding: 0 20px;
+    }
+
+    #cssmenu > ul > li > a {
+        line-height: 48px;
+        font-size: 12px;
+    }
+
+    #cssmenu.align-center > ul {
+        text-align: center;
+        font-size: 0;
+    }
+
+        #cssmenu.align-center > ul > li {
+            display: inline-block;
+            float: none;
+        }
+
+    #cssmenu.align-center ul ul {
+        text-align: left;
+    }
+
+    #cssmenu.align-right > ul > li {
+        float: right;
+    }
+
+    #cssmenu.align-right ul ul {
+        left: auto;
+        right: 0;
+        text-align: right;
+    }
+
+        #cssmenu.align-right ul ul ul {
+            left: auto;
+            right: 190px;
+        }
+
+        #cssmenu.align-right ul ul li.has-sub > a:after {
+            left: 15px;
+            right: auto;
+        }
+
+
+
+
+#cssmenu {
+    width: 960px;
+
+}
+
+          
+div#Contentholder
+{
+    width: 960px;
+    margin-top: 10px;
+    margin-left: 0px;
+
+}
+
+
+div#footer {
+    box-shadow: 0 8px 6px -6px #0f6ec3;
+    background-color: #666666;
+    width: 960px;
+    height: 80px;
+    margin-top: 10px;
+    margin-right: 40px;
+}
+div#addresscontainer
+{
+    float: left;
+    width:80px;
+    height: 80px;
+}
+
+div#ftrAddress {
+    width: 70px;
+    height: 15px;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 12px;
+    color: #0b5394;
+}
+
+
+div#ftraddressDetails {
+    height: 60px;
+    width: 70px;
+    padding-left: 10px;
+    font-family: Arial;
+    line-height: 10px;
+    font-size: 10px;
+
+    color: white;
+}
+
+div#contactinfocontainer {
+    float: left;
+    width: 80px;
+    height: 80px;
+}
+
+div#ftrcontact {
+    width: 70px;
+    height: 15px;
+    padding-top: 5px;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    color: #0b5394;
+}
+
+div#ftrcontactdetails {
+    height: 60px;
+    width: 70px;
+    font-family: Arial;
+    font-size: 10px;
+    line-height:10px;    
+    color: white;
+}
+
+div#copyrightcontainer {
+    float: right;
+    width: 280px;
+    height: 80px;
+}
+
+div#sitemap 
+{
+    width: 70px;
+    height: 15px;
+    padding-right: 10px;
+    float: left;
+    padding-top: 30px;
+    text-align: right;
+    font-family: Arial;
+    font-size: 10px;
+    font-weight: bold;
+    color: #0b5394;
+}
+
+div#designinfo {
+    height: 60px;
+    width: 70px;
+    text-align:right;
+    float: left;
+    font-family: Calibri;
+    font-size: 8px;
+    color: white;
+}
+
+/*About Page*/
+
+
+#aboutcontentwrapper
+{
+    width: 960px;
+    height: 320px;
+
+
+
+}
+
+#aboutcontentleft {
+    border: 2px solid #0b5394;
+    box-shadow: inset 0px 0px 2px #0b5394;
+    align-content:center;
+    width: 460px;
+    float: left;
+    height: 300px;
+    padding-top: 10px;
+    margin-right: 5px;
+    background-color: #666666;
+}
+
+#aboutcontentright {
+    border: 2px solid #0b5394;
+    box-shadow: inset 0px 0px 2px #0b5394;
+    align-content: center;
+    width: 460px;
+    float: right;
+    height: 300px;
+    padding-top: 10px;
+    margin-left: 5px;
+    background-color: #666666;
+}
+
+#abouttextarea1 
+{
+    display: inline-block;
+    width: 420px;
+    height: 280px;
+    padding-top: 10px;
+    margin-left: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px 5px 15px 15px;
+}
+
+#abouttextarea2 
+{
+    display: inline-block;
+    width: 420px;
+    height: 280px;
+    padding-top: 10px;
+    margin-left: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px 5px 15px 15px;
+}
+
+#whowearetext 
+{
+    padding-left: 10px;
+    font-family: Calibri;
+    font-size: 16px;
+    color: #B0C4DE;
+}
+
+#whowearecontent {
+    font-weight: 500;
+    font-family: Calibri;
+    text-align: justify;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #C0C0C0;
+}
+
+#whowearecontent2 {
+    font-weight: 500;
+    font-family: Calibri;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #C0C0C0;
+}
+
+#whatwedotext {
+    padding-left: 10px;
+    font-family: Calibri;
+    font-size: 16px;
+    color: #B0C4DE;
+}
+
+#whatwedocontent {
+    font-weight: 500;
+    font-family: Calibri;
+    text-align: justify;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #C0C0C0;
+}
+
+#whatwedocontent2 {
+    font-weight: 500;
+    font-family: Calibri;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #C0C0C0;
+}
+
+hr {
+    height: 1px;
+    color: #0b5394;
+    background-color: #FFFFFF;
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+/*Equipment Page items*/
+h6{
+
+    margin-bottom:0px;
+
+
+
+}
+
+p{
+    margin-top:0;
+
+
+
+}
+
+#equipmentcontentwrapper {
+    width: 960px;
+    height: 640px;
+}
+
+
+#equipmentcontentleft {
+    border: 2px solid #0b5394;
+    box-shadow: inset 0px 0px 2px #0b5394;
+    align-content: center;
+    width: 440px;
+    float: left;
+    height: 600px;
+    padding-top: 10px;
+    margin-right: 5px;
+    background-color: #666666;
+}
+
+#equipmenttextarea1 {
+
+
+    overflow-x: hidden;
+    overflow-y:auto;
+    display: inline-block;
+    width: 420px;
+    height: 560px;
+    padding-top: 10px;
+    margin-left: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px 5px 15px 15px;
+}
+
+
+
+#equipmenthiretext {
+    margin-left: 10px;
+    font-family: Calibri;
+    font-size: 16px;
+    color: #B0C4DE;
+}
+
+
+
+.equipmentproduct1 {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 390px;
+    height: 240px;
+    border: 5px solid #000000;
+}
+.ep1productinfo {
+    float:left;
+    height: 200px;
+    width:390px;
+    background-color: #0b5394;
+
+
+
+}
+
+
+
+.ep1title {
+
+    height: 25px;
+    width: auto;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 600;
+    color: #0b5394;
+    background-color: #B0C4DE;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.epsubheadings {
+    width: auto;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 600;
+    color: #ffffff;
+
+}
+
+.epinfo {
+    font-family: Arial;
+    font-size: 9px;
+    font-weight: 600;
+    color: #ffffff;
+    padding-left: 15px;
+}
+
+.ep1table {
+
+    height: 200px;
+    width: 390px;
+
+}
+
+/*Equipment page form*/
+
+#equipmentcontentright {
+    border: 2px solid #0b5394;
+    box-shadow: inset 0px 0px 2px #0b5394;
+    align-content: center;
+    width: 460px;
+    float: right;
+    height: 600px;
+    padding-top: 10px;
+    margin-left: 5px;
+    background-color: #666666;
+}
+
+#equipmenttextarea2 {
+    display: inline-block;
+    height: 560px;
+    width: 440px;
+    padding-top: 10px;
+    margin-left: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px 5px 15px 15px;
+}
+
+#formtableequipment {
+    margin-left: 10px;
+    font-family: Calibri;
+    font-size: 26px;
+    font-weight: 700;
+    color: #B0C4DE;
+}
+
+#calendar1
+{
+    font-size:4px;
+
+
+
+}
+
+.button1 {
+    background-color: #0b5394; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: 2px solid black;
+
+}
+
+
+
+/*Studio Hire Page*/
+
+#studiocontentwrapper{
+
+
+    width: 960px;
+    height: 680px;
+
+}
+
+#studioleftpane {
+    border: 2px solid #0b5394;
+    width: 288px;
+    height: 640px;
+    margin-right: 10px;
+    float: left;
+    background-color: #666666;
+}
+
+
+#studiotopcontent {
+    border: 2px solid #0b5394;
+    box-shadow: inset 0px 0px 2px #0b5394;
+    align-content: center;
+    float: left;
+    height: 384px;
+    width: 630px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin-left: 20px;
+    background-color: #666666;
+}
+
+#studiotopcontentarea {
+    display: inline-block;
+    height: 340px;
+    width: 567px;
+    padding-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px 5px 15px 15px;
+}
+
+#studiobottomcontent {
+    border: 2px solid #0b5394;
+    margin-top: 20px;
+    float: left;
+    height: 225px;
+    width: 630px;
+    margin-left: 20px;
+    background-color: #666666;
+}
+
+#studiobottomcontentarea {
+    border: 2px solid #0b5394;
+    height: 200px;
+    width: 600px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#studioleftpanetop {
+    float: left;
+    width: 288px;
+    height: 64px;
+    background-color: #666666;
+    border-bottom: 3px solid black;
+}
+
+#studioleftpanecontent1 {
+    text-align:center;
+    box-shadow: inset 0px 0px 2px #0b5394;
+    width: 288px;
+    height: 256px;
+    padding-top: 25px;
+    font-family: Arial;
+    text-align: right;
+    background-color: #0b5394;
+    font-weight: 900;
+    color: #B0C4DE;
+    font-size: 36px;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+#whatsavailstudiotitle {
+
+    text-align: left;
+    float:left;
+    font-family: Calibri;
+    height:20px;
+    width: 400px;
+    font-weight: 900;
+    font-size: 36px;
+    color: #B0C4DE;
+    margin-bottom: 20px;
+}
+
+.whatsavailstutiocontent {
+    padding-right: 10px;
+    height: 200px;
+    width: 288px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    border-bottom: 3px solid black;
+}
+
+#studiocontentspace {
+    padding-top: 60px;
+    width: 288px;
+    height: 34px;
+    background-color: #666666;
+}
+
+#studioleftpanecontent2 {
+    text-align: center;
+    padding-top: 20px;
+    box-shadow: inset 0px 0px 2px #0b5394;
+    font-family: Arial;
+    font-size: 36px;
+    width: 288px;
+    color: #B0C4DE;
+    font-weight: 900;
+    height: 200px;
+    background-color: #0b5394;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+#studiohiretitle {
+    padding-left:10px;
+    color: #B0C4DE;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: Calibri;
+}
+
+.studiohireformtext{
+    padding-left: 10px;
+    color: #B0C4DE;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Calibri;
+}
+
+.inputequipment {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+
+
+
+/* Slideshow container */
+.slideshow-container {
+    height: 200px;
+    width: 600px;
+    margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+    }
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+    .active, .dot:hover {
+        background-color: #717171;
+    }
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+
+/*PRODUCTS PAGE*/
+#productswrapper {
+    width: 955px;
+    height: 900px;
+    margin-bottom: 50px;
+}
+
+#productscontainer {
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 685px;
+    height: 900px;
+    border: 2px solid #0b5394;
+    background-color: #666666;
+    padding-bottom: 20px;
+    float: left;
+}
+
+#productloginarea {
+    width: 240px;
+    height: 420px;
+    margin-left: 20px;
+    margin-bottom: 55px;
+    border: 2px solid #0b5394;
+    float: right;
+    background-color: #666666;
+}
+
+#loginform {
+    width: 200px;
+    height:200px;
+    font-size: 14px;
+
+
+
+
+}
+
+#productcheckoutarea {
+    width: 240px;
+    height: 420px;
+    margin-left: 20px;
+    border: 2px solid #0b5394;
+    float: right;
+    padding-bottom: 20px;
+    background-color: #666666;
+}
+
+
+
+.productitem {
+    width: 270px;
+    height: 350px;
+    border: 5px solid #000000;
+    margin: 20px;
+    float: left;
+    background-color: #B0C4DE;
+}
+
+
+#productdescriptiontitle {
+    padding-left: 20px;
+    font-weight: 900;
+    font-size: 36px;
+    color: #B0C4DE;
+    font-family:Calibri;
+}
+
+#productiondescriptioninfo {
+    padding-left: 20px;
+    font-weight: 900;
+    font-size: 16px;
+    color: #B0C4DE;
+    font-family: Calibri;
+}
+
+.btnProduct {
+    background-color: #0b5394;
+    border: 2px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+
+/*Product Order form*/
+#productorderformwrapper {
+    width: 955px;
+    height: 900px;
+    margin-bottom: 50px;
+    background-color: #666666;
+}
+
+/*ORDER SUMMARY */
+
+#ordersummarywrapper {
+    width: 955px;
+    height: 300px;
+    margin-bottom: 50px;
+    background-color: #666666;
+}
+
+/*Studio hire summary*/
+
+#studiohiresummarywrapper {
+    width: 955px;
+    height: 300px;
+    margin-bottom: 50px;
+    background-color: #666666;
+}
+
+#contactuswrapper {
+    width: 955px;
+    height: 300px;
+    margin-bottom: 50px;
+    background-color: #666666;
+}
+
+/*LOGGED IN*/
+#loggedinwrapper {
+    width: 955px;
+    height: 300px;
+    margin-bottom: 50px;
+    background-color: #666666;
+}
